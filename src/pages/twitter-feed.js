@@ -47,7 +47,7 @@ const TwitterFeed = () => (
       </div>
     </div>
     <div className="flex justify-center items-center max-w-screen-lg mx-auto p-6">
-      Tweets go here.
+      Tweets go here, I guess.
     </div>
   </Layout>
 );
