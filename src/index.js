@@ -1,7 +1,7 @@
 /* eslint-disable no-undef */
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Router} from '@reach/router';
+import { Router } from '@reach/router';
 
 // components
 import Home from './pages/home';
@@ -19,5 +19,5 @@ ReactDOM.render(
       <TwitterFeed path="/twitter-feed" />
     </Router>
   </React.StrictMode>,
-  document.getElementById('root'),
+  document.getElementById('root')
 );
