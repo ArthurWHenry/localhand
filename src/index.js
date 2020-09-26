@@ -1,17 +1,23 @@
+/* eslint-disable no-undef */
 import React from 'react';
 import ReactDOM from 'react-dom';
+import {Router} from '@reach/router';
+
+// components
+import Home from './pages/home';
+import Businesses from './pages/businesses';
+import TwitterFeed from './pages/twitter-feed';
+
+// styling
 import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <Home path="/" />
+      <Businesses path="/businesses" />
+      <TwitterFeed path="/twitter-feed" />
+    </Router>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById('root'),
 );
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
