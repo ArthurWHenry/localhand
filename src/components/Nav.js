@@ -5,12 +5,10 @@ import classNames from 'classnames';
 const Nav = () => {
   const [isOpen, setOpen] = useState(false);
 
-  const dropdownMobile = classNames(
-    'w-full', 'block', 'md:hidden', {
-      hidden: !isOpen,
-      block: isOpen,
-    },
-  );
+  const dropdownMobile = classNames('w-full', 'block', 'md:hidden', {
+    hidden: !isOpen,
+    block: isOpen,
+  });
 
   const hamburgerIconClasses = classNames({
     hidden: isOpen,
@@ -23,10 +21,11 @@ const Nav = () => {
   });
 
   return (
-
     <nav className="flex flex-wrap justify-between items-center max-w-screen-lg mx-auto p-6 text-gray-900">
       <div>
-        <Link className="font-bold text-2xl" to="/">localhand</Link>
+        <Link className="font-bold text-2xl" to="/">
+          localhand
+        </Link>
       </div>
       <div className="block md:hidden">
         <button
@@ -59,13 +58,33 @@ const Nav = () => {
         </button>
       </div>
       <div className={dropdownMobile}>
-        <Link className="font-bold text-gray-600 transition ease-in-out duration-300 hover:text-gray-900 block p-1 mt-3" to="/businesses">Businesses</Link>
-        <Link className="font-bold text-gray-600 transition ease-in-out duration-300 hover:text-gray-900 block p-1 mt-3" to="/twitter-feed">Twitter Feed</Link>
+        <Link
+          className="font-bold text-gray-600 transition ease-in-out duration-300 hover:text-gray-900 block p-1 mt-3"
+          to="/businesses"
+        >
+          Businesses
+        </Link>
+        <Link
+          className="font-bold text-gray-600 transition ease-in-out duration-300 hover:text-gray-900 block p-1 mt-3"
+          to="/twitter-feed"
+        >
+          Twitter Feed
+        </Link>
       </div>
       <div className="w-full hidden md:flex md:items-center md:w-auto">
         <div className="text-sm lg:flex-grow">
-          <Link className="font-bold text-gray-600 transition ease-in-out duration-300 hover:text-gray-900 px-2 py-1 mr-2" to="/businesses">Businesses</Link>
-          <Link className="font-bold text-gray-600 transition ease-in-out duration-300 hover:text-gray-900 px-2 py-1" to="/twitter-feed">Twitter Feed</Link>
+          <Link
+            className="font-bold text-gray-600 transition ease-in-out duration-300 hover:text-gray-900 px-2 py-1 mr-2"
+            to="/businesses"
+          >
+            Businesses
+          </Link>
+          <Link
+            className="font-bold text-gray-600 transition ease-in-out duration-300 hover:text-gray-900 px-2 py-1"
+            to="/twitter-feed"
+          >
+            Twitter Feed
+          </Link>
         </div>
       </div>
     </nav>
