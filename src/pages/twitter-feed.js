@@ -5,31 +5,6 @@ import { Link } from '@reach/router';
 import Layout from '../components/Layout';
 
 const TwitterFeed = () => (
-  // const myHeaders = new Headers();
-  // myHeaders.append(
-  //   'Authorization',
-  //   'OAuth oauth_consumer_key="WL2IKThsLUSiimJdlypwAiaGg",oauth_token="708024621145133056-7LLXIFr2wmooytpfkwl8IBiGRbnDpie",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1601144459",oauth_nonce="t2ikVZeGkcA",oauth_version="1.0",oauth_signature="AFI4LF2KFINPA%2F26QY3%2B2ljCy2c%3D"'
-  // );
-  // myHeaders.append(
-  //   'Cookie',
-  //   'personalization_id="v1_VtyL9vbKCXbLm39CmjSCYg=="; guest_id=v1%3A160113661107523521; lang=en'
-  // );
-
-  // const requestOptions = {
-  //   method: 'GET',
-  //   headers: myHeaders,
-  //   redirect: 'follow',
-  // };
-
-  // fetch(
-  //   'https://cors-anywhere.herokuapp.com/' +
-  //     'https://api.twitter.com/1.1/statuses/home_timeline.json',
-  //   requestOptions
-  // )
-  //   .then((response) => response.text())
-  //   .then((result) => console.log(result))
-  //   .catch((error) => console.log('error', error));
-
   <Layout>
     <div className="bg-gray-300">
       <div className="flex flex-col justify-center items-center max-w-screen-lg mx-auto h-64 p-6">
