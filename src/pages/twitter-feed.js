@@ -1,6 +1,5 @@
 /* eslint-disable prefer-const */
 import React from 'react';
-import { Link } from '@reach/router';
 
 // components
 import Layout from '../components/Layout';
@@ -34,7 +33,8 @@ const TwitterFeed = () => {
       <div className="bg-gray-300">
         <div className="flex flex-col justify-center items-center max-w-screen-lg mx-auto h-64 p-6">
           <span className="text-3xl md:text-5xl text-center font-bold">
-            Share your tweet with <span className="underline text-indigo-600">#localhand</span>
+            Share your tweet with{' '}
+            <span className="underline text-indigo-600">#localhand</span>
           </span>
           <div className="mt-6">
             {/* <Link
