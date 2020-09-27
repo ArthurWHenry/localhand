@@ -10,6 +10,24 @@ import tweets from '../assets/twitter-info';
 const TwitterFeed = () => {
   console.log(tweets);
 
+  window.twttr = (function (d, s, id) {
+    let js;
+    const fjs = d.getElementsByTagName(s)[0];
+    const t = window.twttr || {};
+    if (d.getElementById(id)) return t;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = 'https://platform.twitter.com/widgets.js';
+    fjs.parentNode.insertBefore(js, fjs);
+
+    t._e = [];
+    t.ready = function (f) {
+      t._e.push(f);
+    };
+
+    return t;
+  })(document, 'script', 'twitter-wjs');
+
   return (
     <Layout>
       <div className="bg-gray-300">
@@ -18,12 +36,18 @@ const TwitterFeed = () => {
             Share your tweet with <span className="underline">#localhand</span>
           </span>
           <div className="mt-6">
-            <Link
+            {/* <Link
               className="font-bold border border-gray-900 py-2 px-4 bg-gray-900 text-gray-100 shadow-lg  transition ease-in-out duration-300 hover:bg-gray-100 hover:text-gray-900 hover:shadow-none"
               to="/businesses"
             >
               Tweet
-            </Link>
+            </Link> */}
+            <a
+              className="twitter-hashtag-button"
+              href="https://twitter.com/intent/tweet?button_hashtag=localhand"
+            >
+              Tweet #TwitterStories
+            </a>
           </div>
         </div>
       </div>
