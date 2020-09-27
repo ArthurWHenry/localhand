@@ -51,9 +51,9 @@ const TwitterFeed = () => {
             </a>
             <p className="my-3">{tweet.text}</p>
             <p className="">
-              <span className="font-bold">Favorite(s):</span>{' '}
+              <span className="font-bold">Favorites: </span>{' '}
               {tweet.favorite_count}{' '}
-              <span className="font-bold">Retweet(s):</span>{' '}
+              <span className="font-bold">Retweets: </span>{' '}
               {tweet.retweet_count}
             </p>
           </div>
