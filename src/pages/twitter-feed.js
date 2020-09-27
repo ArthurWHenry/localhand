@@ -30,7 +30,7 @@ const TwitterFeed = () => {
 
   return (
     <Layout>
-      <div className="bg-gray-300">
+      <div className="">
         <div className="flex flex-col justify-center items-center max-w-screen-lg mx-auto h-64 p-6">
           <span className="text-3xl md:text-5xl text-center font-bold">
             Share your tweet with{' '}

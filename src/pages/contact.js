@@ -6,12 +6,9 @@ import Layout from '../components/Layout';
 
 const Contact = () => (
   <Layout>
-    <div className="flex justify-center items-center max-w-screen-lg mx-auto text-2xl font-bold mt-6 md:mt-0 mb-6">
-      Contact Us
-    </div>
-
-    <form className="flex justify-center items-center max-w-screen-lg mx-auto content-evenly">
-      <div className="flex flex-col w-2/3">
+    <form className="flex justify-center items-center max-w-screen-lg mx-auto p-6">
+      <div className="flex flex-col w-full md:w-2/3 border-t-4 border-indigo-600 shadow-lg p-6">
+        <span className="text-xl font-bold text-center mb-3">Contact Us</span>
         <div className="flex flex-col">
           <label
             className="w-64 block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
@@ -55,7 +52,7 @@ const Contact = () => (
         </div>
         <div className="flex flex-col justify-center items-center">
           <button
-            className="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline my-6"
+            className="bg-indigo-600 shadow-lg hover:shadow-none hover:bg-gray-100 text-gray-100 hover:text-indigo-600 border-2 border-indigo-600 font-bold py-2 px-4 transition ease-in-out duration-300 focus:outline-none focus:shadow-outline mt-3"
             type="button"
           >
             Submit
