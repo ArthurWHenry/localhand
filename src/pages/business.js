@@ -52,7 +52,7 @@ const Business = () => {
               <span className="text-2xl font-bold mt-6 md:mt-0 text-center">
                 {business.name}
               </span>
-              <span className="text-gray-600 font-bold text-center">
+              <span className="text-indigo-600 font-bold text-center">
                 {business.address}
               </span>
               <p className="text-center md:text-left my-6">
@@ -60,7 +60,7 @@ const Business = () => {
                 offering a range of vegan comfort classics.
               </p>
               <a
-                className="font-bold border border-gray-900 py-2 px-4 bg-gray-900 text-gray-100 shadow-lg  transition ease-in-out duration-300 hover:bg-gray-100 hover:text-gray-900 hover:shadow-none focus:outline-none"
+                className="font-bold border border-indigo-600 py-2 px-4 bg-indigo-600 text-gray-100 shadow-lg  transition ease-in-out duration-300 hover:bg-gray-100 hover:text-indigo-600 hover:shadow-none focus:outline-none"
                 href={`https://${business.website}`}
                 target="_blank"
                 rel="noopener noreferrer"

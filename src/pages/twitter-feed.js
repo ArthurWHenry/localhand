@@ -33,7 +33,8 @@ const TwitterFeed = () => {
       <div className="bg-gray-300">
         <div className="flex flex-col justify-center items-center max-w-screen-lg mx-auto h-64 p-6">
           <span className="text-3xl md:text-5xl text-center font-bold">
-            Share your tweet with <span className="underline">#localhand</span>
+            Share your tweet with{' '}
+            <span className="underline text-indigo-600">#localhand</span>
           </span>
           <div className="mt-6">
             {/* <Link
@@ -55,7 +56,7 @@ const TwitterFeed = () => {
         {tweets.statuses.map((tweet) => (
           <div
             key={tweet.id}
-            className="flex flex-col justify-center items-center shadow-lg p-6 my-4 w-full border-t-4 border-gray-900 text-center"
+            className="flex flex-col justify-center items-center shadow-lg p-6 my-4 w-full border-t-4 border-indigo-500 text-center"
           >
             <div className="flex flex-row justify-between items-center">
               <img
@@ -75,9 +76,9 @@ const TwitterFeed = () => {
             </a>
             <p className="my-3">{tweet.text}</p>
             <p className="">
-              <span className="font-bold">Favorites: </span>{' '}
+              <span className="font-bold text-indigo-600">Favorites: </span>{' '}
               {tweet.favorite_count}{' '}
-              <span className="font-bold">Retweets: </span>{' '}
+              <span className="font-bold text-indigo-600">Retweets: </span>{' '}
               {tweet.retweet_count}
             </p>
           </div>
