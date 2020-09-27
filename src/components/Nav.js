@@ -60,7 +60,7 @@ const Nav = () => {
       <div className={dropdownMobile}>
         <Link
           className="font-bold text-gray-600 transition ease-in-out duration-300 hover:text-gray-900 block p-1 mt-3"
-          to="/businesses"
+          to="/business"
         >
           Businesses
         </Link>
@@ -75,7 +75,7 @@ const Nav = () => {
         <div className="text-sm lg:flex-grow">
           <Link
             className="font-bold text-gray-600 transition ease-in-out duration-300 hover:text-gray-900 px-2 py-1 mr-2"
-            to="/businesses"
+            to="/business"
           >
             Businesses
           </Link>
