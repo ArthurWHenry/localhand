@@ -54,7 +54,7 @@ const Business = () => {
           {searchResults.map((business) => (
             <div
               key={Math.random()}
-              className="flex flex-col md:flex-row justify-center md:justify-around items-center w-full max-w-screen-lg mx-auto p-6 border-t-4 border-indigo-600 my-6 shadow-lg"
+              className="flex flex-col md:flex-row justify-center md:justify-start items-center w-full max-w-screen-lg mx-auto p-6 border-t-4 border-indigo-600 my-6 shadow-lg"
             >
               <img
                 className="h-64 w-64 object-contain"
@@ -68,10 +68,19 @@ const Business = () => {
                 <span className="text-gray-600 font-bold text-center">
                   {business.address}
                 </span>
-                <p className="text-center md:text-left my-6">
+                <span className="text-gray-900 mb-4">Ph: {business.phone}</span>
+                {/* <p className="text-center md:text-left my-6">
                   Airy, counter-serve eatery inside Hourglass Social House
                   offering a range of vegan comfort classics.
-                </p>
+                </p> */}
+                <span className="font-bold">Days open:</span>
+                <span className="text-gray-600 mb-4 md:text-center">
+                  {business.week}
+                </span>
+                <span className="font-bold">Times:</span>
+                <span className="text-gray-600 mb-4 text-center md:text-left">
+                  {business.hours}
+                </span>
                 <a
                   className="font-bold border border-indigo-600 py-2 px-4 text-indigo-600 transition ease-in-out duration-300 hover:bg-indigo-600 hover:text-gray-100 hover:shadow-none focus:outline-none"
                   href={`https://${business.website}`}

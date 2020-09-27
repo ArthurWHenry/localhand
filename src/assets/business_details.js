@@ -83,6 +83,7 @@ module.exports = [
     image:
       'https://s3-media0.fl.yelpcdn.com/bphoto/xkbZQLQrWP3L7OfIkXqCrQ/l.jpg',
     name: 'Valkyrie Doughnuts',
+    phone: 'N/A',
     website: 'valkyriedoughnuts.com',
     week: 'Mon\nTue\nWed\nThu\nFri\nSat\nSun\n',
   },
@@ -203,7 +204,7 @@ module.exports = [
     image:
       'https://s3-media0.fl.yelpcdn.com/bphoto/SB5NEAb1GZ1lta_txlHMvg/l.jpg',
     name: 'Bros with Hoes Plant Co.',
-    phone: 'Fri 12/25/2020',
+    phone: 'N/A',
     website: 'bwhplantco.com',
     week: 'Mon\nTue\nWed\nThu\nFri\nSat\nSun\n',
   },
@@ -214,6 +215,7 @@ module.exports = [
     image:
       'https://s3-media0.fl.yelpcdn.com/bphoto/HSeEo1Xs06zBe-lEFweoXg/l.jpg',
     name: 'The Pop Parlour',
+    phone: 'N/A',
     website: 'thepopparlour.com',
     week: 'Mon\nTue\nWed\nThu\nFri\nSat\nSun\n',
   },
