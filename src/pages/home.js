@@ -10,7 +10,10 @@ import '../index.css';
 export default function Home() {
   return (
     <Layout>
-      <div className="flex flex-col justify-center items-center text-gray-900 h-64">
+      <div
+        style={{ height: '570px' }}
+        className="flex flex-col justify-center items-center text-gray-900 h-64"
+      >
         <div className="flex flex-col justify-center items-center p-6">
           <span className="text-5xl md:text-6xl font-bold">localhand</span>
           <span>Supporting small, local businesses.</span>
