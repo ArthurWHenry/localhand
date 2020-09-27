@@ -59,32 +59,44 @@ const Nav = () => {
           </button>
         </div>
         <div className={dropdownMobile}>
-          <Link
+          {/* <Link
             className="font-bold text-gray-600 transition ease-in-out duration-300 hover:text-gray-900 block p-1 mt-3"
             to="/business"
           >
             Businesses
-          </Link>
+          </Link> */}
           <Link
             className="font-bold text-gray-600 transition ease-in-out duration-300 hover:text-gray-900 block p-1 mt-3"
             to="/twitter-feed"
           >
             Twitter Feed
           </Link>
+          <Link
+            className="font-bold text-gray-600 transition ease-in-out duration-300 hover:text-gray-900 block p-1 mt-3"
+            to="/twitter-feed"
+          >
+            Register Business
+          </Link>
         </div>
         <div className="w-full hidden md:flex md:items-center md:w-auto">
           <div className="text-sm lg:flex-grow">
-            <Link
-              className="font-bold text-gray-600 transition ease-in-out duration-300 hover:text-gray-900 px-2 py-1 mr-2"
+            {/* <Link
+              className="font-bold text-gray-600 transition ease-in-out duration-300 hover:text-gray-900 px-2 py-1 mr-4"
               to="/business"
             >
               Businesses
-            </Link>
+            </Link> */}
             <Link
-              className="font-bold text-gray-600 transition ease-in-out duration-300 hover:text-gray-900 px-2 py-1"
+              className="font-bold text-gray-600 transition ease-in-out duration-300 hover:text-gray-900 px-2 py-1 mr-4"
               to="/twitter-feed"
             >
               Twitter Feed
+            </Link>
+            <Link
+              className="bg-indigo-600 shadow-lg hover:shadow-none hover:bg-gray-100 text-gray-100 hover:text-indigo-600 border-2 border-indigo-600 font-bold py-2 px-4 transition ease-in-out duration-300 focus:outline-none focus:shadow-outline"
+              to="/register-business"
+            >
+              Register Business
             </Link>
           </div>
         </div>
