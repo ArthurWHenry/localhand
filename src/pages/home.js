@@ -34,6 +34,9 @@ const Business = () => {
             src={Agreement}
             alt="The shaking of two hands."
           />
+          <span className="text-2xl md:text-6xl font-bold text-indigo-600">
+            localhand
+          </span>
           <span className="text-xl md:text-3xl text-gray-900 text-center font-bold mb-6">
             Support small, local businesses.
           </span>
