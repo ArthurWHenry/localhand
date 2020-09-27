@@ -6,7 +6,7 @@ const Footer = () => (
     <div>
       <Link
         className="font-bold transition ease-in-out duration-300 hover:underline"
-        to="/"
+        to="/contact-us"
       >
         Contact Us
       </Link>
