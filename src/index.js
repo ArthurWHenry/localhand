@@ -7,6 +7,7 @@ import { Router } from '@reach/router';
 import Home from './pages/home';
 import Businesses from './pages/businesses';
 import TwitterFeed from './pages/twitter-feed';
+import RegisterBusiness from './pages/register-business';
 
 // styling
 import './index.css';
@@ -17,6 +18,7 @@ ReactDOM.render(
       <Home path="/" />
       <Businesses path="/businesses" />
       <TwitterFeed path="/twitter-feed" />
+      <RegisterBusiness path="/register-business" />
     </Router>
   </React.StrictMode>,
   document.getElementById('root')
