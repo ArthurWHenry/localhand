@@ -16,7 +16,10 @@ export default function Home() {
           <span>Supporting small, local businesses.</span>
         </div>
         <div className="mt-3">
-          <Link className="font-bold border border-gray-900 py-2 px-4 bg-gray-900 text-gray-100 shadow-lg  transition ease-in-out duration-300 hover:bg-gray-100 hover:text-gray-900 hover:shadow-none" to="/businesses">
+          <Link
+            className="font-bold border border-gray-900 py-2 px-4 bg-gray-900 text-gray-100 shadow-lg  transition ease-in-out duration-300 hover:bg-gray-100 hover:text-gray-900 hover:shadow-none"
+            to="/register-business"
+          >
             Register Your Business
           </Link>
         </div>
