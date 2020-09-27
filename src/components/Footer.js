@@ -5,7 +5,7 @@ const Footer = () => (
   <footer className="flex flex-col justify-center items-center max-w-screen-lg mx-auto p-6 text-gray-900 h-32">
     <div>
       <Link
-        className="font-bold transition ease-in-out duration-300 hover:underline"
+        className="font-bold transition ease-in-out duration-300 hover:underline hover:text-indigo-500"
         to="/"
       >
         Contact Us
