@@ -1,6 +1,5 @@
 /* eslint-disable prefer-const */
 import React from 'react';
-import { Link } from '@reach/router';
 
 // components
 import Layout from '../components/Layout';
