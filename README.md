@@ -1,4 +1,4 @@
-#localhand
+# localhand
 
 ## Introduction
 
@@ -45,7 +45,7 @@ An asset in this project is local data, images, and font packages.
 
 For styling, we used [TailwindCSS](https://tailwindcss.com/).
 
-### Contact
+## Contact
 
 If you have any questions about the project you may contact us.
 
