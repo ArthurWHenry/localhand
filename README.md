@@ -16,14 +16,26 @@ To visit the application, you can visit this link: https://localhand.vercel.app/
 
 ## Installation
 
-Use yarn to install all the dependencies required.
+After cloning the repository, you want to go into the directory for localhand.
+
+```bash
+cd localhand
+```
+
+Then, use yarn to install all the dependencies required.
 
 ```bash
 yarn
 ```
 
 After all the dependencies have been installed, run the following command to get
-the project started at http://localhost:3000/.
+the project started locally.
+
+```bash
+yarn start
+```
+
+This will start the project at http://localhost:3000.
 
 ## Documentation
 
